@@ -1,0 +1,104 @@
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    position: fixed;
+    width: 100%
+}
+
+/*nav{}*/
+
+.bar li{
+    display: inline-block;
+    font-size: x-large;
+    margin-right: 25px;
+    padding:5px;
+    border-radius: 15px;
+}
+
+ul{
+    margin: 0px 10px 0px 10px;
+    padding:5px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.bar li:hover{
+    background-color: grey;
+}
+
+.bar li:active{
+    background-color: white;
+}
+
+.intro{
+    display: flex;
+    margin-top: 0;
+}
+
+.pics{
+    background-color: black;
+    justify-content: space-between;
+}
+
+.pics div{
+    display: inline-block;
+    margin:0;
+    padding: 0;
+    width: 33%;
+}
+
+.pics div img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.info div img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+}
+.pfp{
+    display: inline-block;
+    margin:0;
+    padding: 0;
+    width:400px
+}
+
+.info{
+    background-color: grey;
+    padding: 10px;
+}
+
+.me{
+    flex: 1;
+    text-align: center;
+}
+
+.me div h1{
+    font-size: 50px;
+}
+
+.me div{
+    font-size: 30px;
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+}
